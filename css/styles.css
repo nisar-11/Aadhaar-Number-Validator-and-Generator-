@@ -1,0 +1,66 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the app */
+.container {
+    background-color: white;
+    width: 350px;
+    padding: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Header style */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style for buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+    width: 90%;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Input field styles */
+input {
+    padding: 10px;
+    width: 90%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Hidden validation section initially */
+.validate-section {
+    display: none;
+    margin-top: 20px;
+}
+
+/* Result output styling */
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}

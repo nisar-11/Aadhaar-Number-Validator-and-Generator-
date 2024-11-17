@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aadhar Number Generator & Validator</title>
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Aadhar Number Service</h1>
+    <p>Select an option:</p>
+    <button onclick="generateAadhar()">Generate New Aadhar</button>
+    <button onclick="validateAadhar()">Validate Aadhar</button>
+
+    <div id="result" class="result"></div>
+
+    <div id="validate-section" class="validate-section">
+        <input type="text" id="aadharInput" placeholder="Enter Aadhar number" maxlength="14">
+        <button onclick="checkAadhar()">Check Aadhar</button>
+    </div>
+</div>
+
+<!-- Link to external JS -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
